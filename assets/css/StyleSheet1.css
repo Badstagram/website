@@ -1,0 +1,222 @@
+#main {
+    background: darkslategray;
+    color: springgreen;
+}
+
+
+#logo {
+    text-decoration: underline;
+}
+
+
+td {
+    font-size: 25px;
+    border: 3px rgb(0, 0, 0) solid;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Bookman Old Style", serif;
+}
+
+#logo, .promo-image {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 331px;
+    width: 754px;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 315px;
+    width: 560px;
+}
+
+
+#welcome-heading {
+    text-decoration: underline;
+    font-size: 60px;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+.button1:hover, .btn:hover {
+    animation-name: nav-button-hover;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-button-hover {
+    from {
+        background-color: rgb(76, 176, 80);
+    }
+
+    to {
+        -webkit-transform: translate(0px, -5px);
+        -ms-transform: translate(0px, -5px);
+        -moz-transform: translate(0px, -5px);
+    translate(5 px);
+        background-color: darkslategray;
+    }
+}
+
+@keyframes footer-button-hover {
+    to {
+        background-color: springgreen;
+        -moz-transform: translate(0px, -5px);
+        -webkit-transform: translate(0px, -5px);
+        -ms-transform: translate(0px, -5px);
+        transform: translate(0px, 5px);
+    }
+}
+
+.button1 {
+    background-color: rgb(76, 176, 80);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#nav-bar {
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#welcome-heading {
+    text-align: center;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+    background: rgb(18, 86, 135);
+    color: white;
+
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: rgb(157, 0, 0);
+}
+
+#welcome-heading-table {
+
+    margin: auto;
+}
+
+.btn, .footer-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+.fa-home {
+    padding: unset;
+}
+
+
+.footer-button {
+    background: #414141;
+    border-radius: 12px;
+
+}
+
+#social-media {
+    text-align: right;
+}
+
+.footer-button {
+    background: #414141;
+    border-radius: 12px;
+}
+
+.footer-button {
+    background: #414141;
+    border-radius: 12px;
+}
+
+.button {
+
+    border-radius: 12px;
+}
+
+#logo {
+    width: 150px;
+    height: 99px;
+}
+
+#media {
+    text-align: center;
+}
+
+
+#about-para {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+
+.footer-button:hover {
+    /* standard syntax*/
+
+    animation-name: footer-button-hover;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+    /* standard syntax*/
+    -moz-animation-name: footer-button-hover;
+    -moz-animation-fill-mode: forwards;
+    -moz-animation-duration: 1s;
+}
+
+not .container {
+    color: springgreen;
+}
+
+
+
+

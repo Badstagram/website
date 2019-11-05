@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jobs</title>
+    <link href="assets/css/StyleSheet1.css" rel="stylesheet">
+    <link href="assets/css/jobs.css" rel="stylesheet">
+</head>
+<body id="main">
+
+<img src="assets/logo.png" height="225" width="225"/>
+<nav id="nav-bar">
+    <button class="btn" onclick="document.location.href = `https://badstagram.github.io/design/index.html`">Home</button>
+
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design/purchase/gymmembership.html`">Join the gym
+    </button>
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design/purchase/daypass.html`">Buy a day pass
+    </button>
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design//book/class.html`">Book a class</button>
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design//book/personaltrainer.html`">Book a personal
+        trainer
+    </button>
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design/facilities.html`">Facilities</button>
+    <button class="button1" onclick="document.location.href = `https://badstagram.github.io/design/memberlogin.html`">Member login</button>
+</nav>
+
+<h1>Apply for a job</h1>
+<p>Fill out the form below and a member of our team will contact you.</p>
+
+<div class="job-form-div">
+    <form class="job-form">
+        <label for="name">Name</label> <br/>
+        <input id="name" name="Name" placeholder="Name" type="text"> <br/>
+
+        <label for="email">Email</label><br/>
+        <input id="email" name="email" placeholder="Email" type="text"> <br/>
+
+        <label for="phonenumber">Phone number</label><br/>
+        <input id="phonenumber" name="phonenumber" placeholder="phone number" type="text"> <br/>
+
+        <label for="cv">Upload your CV</label><br/>
+        <input id="cv" placeholder="cv" type="file"> <br/>
+        <label for="job">Select the job your applying for</label> <br/>
+            <select id="job">
+                <option title="default">---Select One---</option>
+                <option title="personal-trainer">Personal trainer</option>
+                <option title="admin">Administrator</option>
+                <option title="personal-trainer">Security</option>
+                <option title="coffeeshop-assistant">Coffee shop assistant</option>
+                <option title="gym-instructor">Gym instructor</option>
+                <option title="hairdresser">Hairdresser</option>
+            </select>
+
+        <br/>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

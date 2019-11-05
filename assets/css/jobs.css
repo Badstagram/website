@@ -1,0 +1,57 @@
+#job-form-div {
+
+}
+
+input {
+    margin: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+form {
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    background-color: springgreen;
+    border-color: springgreen;
+    padding: 3px;
+}
+
+select {
+    font-size: 20px;
+}
+
+p, h1 {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+
+}
+
+div.job-form-div {
+    display: block;
+    text-align: center;
+}
+
+
+.job-form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+{
+    display: block;
+    text-align: center;
+}
+
+
+#daypass-form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
